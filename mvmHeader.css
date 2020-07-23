@@ -1,0 +1,166 @@
+*{
+  margin: 0px;
+  padding: 0px;
+   box-sizing: border-box;
+}
+.logoSection{
+  width: 1349px;
+  height: 127px;
+  background-color: aqua;
+}
+.linkSection{
+  width: 1349px;
+  height: 50px;
+  background-color: palevioletred;
+  position: relative;
+}
+  .menuBar{  
+   margin-right: 96px;
+   float: right; 
+   transform: translateY(-76px);
+}
+.menuBar>li{
+ float: left;
+ list-style: none;
+ background-color: seagreen;
+  padding: 13px 12px; 
+}
+.menuBar>li>a{
+  text-decoration: none;
+   margin-left: 25px;  
+   font-size: 16px; 
+  font-weight: bold;
+}
+.subBar{ 
+min-width: 300px;
+position: absolute;
+top:50px;
+left:183px;
+display: none;
+}
+.subBar>li{
+  list-style: none;
+  background-color: chocolate;
+  border-bottom: 1px solid blue;
+  line-height: 35px;
+}
+.subBar>li>a{
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.menuBar li:nth-child(2):hover .subBar{
+  display: block;
+}
+.menuBar>li:hover{
+  background-color: coral;
+}
+.subBar>li:hover{
+  background-color:blueviolet;
+}
+.menuBar li:nth-child(3):hover .subBar{
+  display: block;
+}
+.menuBar li:nth-child(4):hover .subBar{
+  display: block;
+}
+.menuBar li:nth-child(5):hover .subBar{
+  display: block;
+}
+.menuBar li:nth-child(6):hover .subBar{
+  display: block;
+}
+.menuBar li:nth-child(7):hover .subBar{
+  display: block;
+}
+.menuBar li:nth-child(8):hover .subBar{
+  display: block;
+}
+.menuBar li:nth-child(9):hover .subBar{
+  display: block;
+}
+
+/* css for javascript(subBar) */
+ #admission{ 
+  left:287px;
+  top:50px;
+}
+ #academic{ 
+  left:428px;
+  top:50px;
+}
+#circular{ 
+  left:560px;
+  top:50px;
+}
+#facilities{ 
+  left:660px;
+  top:50px;
+}
+#corner{ 
+  left:840px;
+  top:50px;
+}
+#career{ 
+  left:950px;
+  top:50px;
+}
+#contact{ 
+  left:950px;
+  top:50px;
+}
+/* code of logo and related detail */
+#mvmLogo{
+  transform: translateX(100px);
+  padding-top: 8px;
+}
+#schoolName{
+  color: blue;
+  margin-left: 110px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  transform: translateY(-26px);
+  display: inline-block;
+  word-spacing: 5px;
+  background-color: darkgreen;
+}
+#schoolLastName{
+  color: blue;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  transform: translateY(-85px);
+  display: inline-block;
+  margin-left: 290px;
+  word-spacing: 5px;
+  background-color: darkorange;
+}
+#aboutAffilated{
+  display: inline-block;
+  transform: translate(216px, -89px);
+  margin-right: 415px;
+  font-size: 17px;
+  background-color: darkslateblue;
+}
+#address{
+  display: inline-block;
+  transform: translate(-534px, -70px);
+  word-spacing: -3px;
+  background-color: darkslategray;
+}
+/* css of social logo */
+#socialLogo{
+ float: right; 
+display: inline-block;
+transform: translateY(-160px);
+padding-right: 120px;
+}
+#socialLogo>li{
+float: left;
+list-style: none;
+}
+#socialLogo>li>a{
+  padding-left: 20px;
+}
+#socialLogo>li>a>i{
+padding-right: px;
+}
