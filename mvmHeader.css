@@ -6,23 +6,24 @@
 .logoSection{
   width: 1349px;
   height: 127px;
-  background-color: aqua;
+  background-color: #FBE8A6;
 }
-.linkSection{
+.linkSection{ 
   width: 1349px;
   height: 50px;
-  background-color: palevioletred;
+  background-color:  #57BA98;
   position: relative;
+  opacity: 1;
 }
   .menuBar{  
    margin-right: 96px;
    float: right; 
-   transform: translateY(-76px);
+   transform: translateY(-102px);
 }
 .menuBar>li{
  float: left;
  list-style: none;
- background-color: seagreen;
+ background-color: #57BA98;
   padding: 13px 12px; 
 }
 .menuBar>li>a{
@@ -30,17 +31,20 @@
    margin-left: 25px;  
    font-size: 16px; 
   font-weight: bold;
+  color: #914343;
 }
 .subBar{ 
 min-width: 300px;
 position: absolute;
 top:50px;
-left:183px;
+z-index: 444;
+/* left:150px; */
+
 display: none;
 }
 .subBar>li{
   list-style: none;
-  background-color: chocolate;
+  background-color:	#ffe033 ;
   border-bottom: 1px solid blue;
   line-height: 35px;
 }
@@ -48,18 +52,21 @@ display: none;
   text-decoration: none;
   font-weight: bold;
   margin-left: 8px;
+  color:  #914343;
 }
 .menuBar li:nth-child(2):hover .subBar{
   display: block;
 }
 .menuBar>li:hover{
-  background-color: coral;
+  background-color: #ffca33 ;
 }
 .subBar>li:hover{
-  background-color:blueviolet;
+  background-color:  #ff9c33 ;
+  z-index: 555;
 }
 .menuBar li:nth-child(3):hover .subBar{
   display: block;
+  z-index: 55;
 }
 .menuBar li:nth-child(4):hover .subBar{
   display: block;
@@ -82,31 +89,31 @@ display: none;
 
 /* css for javascript(subBar) */
  #admission{ 
-  left:287px;
+  left:200px;
   top:50px;
 }
  #academic{ 
-  left:428px;
+  left:340px;
   top:50px;
 }
 #circular{ 
-  left:560px;
+  left:473px;
   top:50px;
 }
 #facilities{ 
-  left:660px;
+  left:627px;
   top:50px;
 }
 #corner{ 
-  left:840px;
+  left:755px;
   top:50px;
 }
 #career{ 
-  left:950px;
+  left:910px;
   top:50px;
 }
 #contact{ 
-  left:950px;
+  left:960px;
   top:50px;
 }
 /* code of logo and related detail */
@@ -115,37 +122,35 @@ display: none;
   padding-top: 8px;
 }
 #schoolName{
-  color: blue;
   margin-left: 110px;
   font-family: 'Roboto Slab', serif;
   font-size: 30px;
   transform: translateY(-26px);
   display: inline-block;
   word-spacing: 5px;
-  background-color: darkgreen;
-}
+  color: #914343;
+ }
 #schoolLastName{
-  color: blue;
+  color: #914343;
   font-family: 'Roboto Slab', serif;
   font-size: 30px;
   transform: translateY(-85px);
   display: inline-block;
   margin-left: 290px;
   word-spacing: 5px;
-  background-color: darkorange;
-}
+ }
 #aboutAffilated{
   display: inline-block;
   transform: translate(216px, -89px);
   margin-right: 415px;
   font-size: 17px;
-  background-color: darkslateblue;
+  color: #914343;
 }
 #address{
   display: inline-block;
   transform: translate(-534px, -70px);
   word-spacing: -3px;
-  background-color: darkslategray;
+  color: #914343;
 }
 /* css of social logo */
 #socialLogo{
@@ -157,10 +162,43 @@ padding-right: 120px;
 #socialLogo>li{
 float: left;
 list-style: none;
+font-weight: bold;
+color: black;
 }
 #socialLogo>li>a{
   padding-left: 20px;
 }
 #socialLogo>li>a>i{
-padding-right: px;
+ color: brown;
+}
+#text{
+  transform: translate(880px,-115px);
+  padding-left: 10px;
+  width:170px;
+}
+#password{
+  transform:translate(879px,-115px);
+  padding-left: 10px;
+  width: 170px;
+}
+#button{
+  transform: translate(875px, -115px);
+  width:100px;
+}
+#image{
+  width: 1349px;
+  height: 500px;
+  background-color: lightgreen;
+}
+.header{
+  width: 1349px;
+  height: 177px;
+  background-color: lightpink;
+}
+.img{
+  margin-bottom: 150px;
+  width: 1349px;
+  height: 800px;
+  transform: translateY(-117px);
+  z-index: -77;
 }
