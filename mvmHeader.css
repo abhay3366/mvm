@@ -12,8 +12,8 @@
   width: 1349px;
   height: 50px;
   background-color:  #57BA98;
-  position: relative;
-  opacity: 1;
+  position: relative; 
+  z-index: 8;
 }
   .menuBar{  
    margin-right: 96px;
@@ -34,12 +34,11 @@
   color: #914343;
 }
 .subBar{ 
-min-width: 300px;
+min-width: 250px;
 position: absolute;
 top:50px;
-z-index: 444;
-/* left:150px; */
-
+left: 95px;
+z-index: auto;
 display: none;
 }
 .subBar>li{
@@ -66,7 +65,6 @@ display: none;
 }
 .menuBar li:nth-child(3):hover .subBar{
   display: block;
-  z-index: 55;
 }
 .menuBar li:nth-child(4):hover .subBar{
   display: block;
@@ -195,10 +193,9 @@ color: black;
   height: 177px;
   background-color: lightpink;
 }
-.img{
-  margin-bottom: 150px;
+/* frame css */
+#myFrame1{
   width: 1349px;
-  height: 800px;
+  height: 1200px;
   transform: translateY(-117px);
-  z-index: -77;
 }
