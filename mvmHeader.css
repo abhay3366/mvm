@@ -14,11 +14,13 @@
   background-color:  #57BA98;
   position: relative; 
   z-index: 8;
+  position: sticky;
+  top: 0px;
 }
-  .menuBar{  
-   margin-right: 96px;
-   float: right; 
-   transform: translateY(-102px);
+.menuBar{  
+  margin-right: 96px;
+  float: right; 
+  transform: translateY(-102px);
 }
 .menuBar>li{
  float: left;
@@ -196,6 +198,6 @@ color: black;
 /* frame css */
 #myFrame1{
   width: 1349px;
-  height: 1200px;
+  height: 2000px;
   transform: translateY(-117px);
 }

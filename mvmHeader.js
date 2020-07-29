@@ -2,7 +2,6 @@ function myfunction1(){
   document.getElementById(about).style.position="absolute";
   // document.getElementById(about).style.zIndex="55";
   
-
 }
 function myfunction1(){
    document.getElementById(admission).style.position="absolute";

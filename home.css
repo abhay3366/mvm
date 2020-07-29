@@ -1,3 +1,4 @@
+/* Sliding Image */
 .img{
   margin-bottom: 150px;
   width: 1349px;
@@ -5,3 +6,119 @@
   transform: translateY(-117px);
   z-index: -77;
 }
+.slidImage{
+  height:600px;
+}
+/* admission enquiry below div */
+.div_below_admission_Enquiry{
+  width: 1349px;
+  height: 1000px;
+  background-color: black;
+  transform: translateY(-467px);
+}
+/* admissionEnquiry_div */
+  .admissionEnquiryDiv{
+    width: 1349px;
+    height: 115px;
+    background-color: #FBE8A6;
+    justify-content: center;
+  }
+  .admissionEnquiryDiv>div{
+    background-color: #ffdd64;
+    width: 350px;
+    height: 96px;
+    float: left;
+    margin-left: 65px;
+    margin-top: 10px;
+  }
+  /* Admission enquiry image */
+  .image1{
+    margin-left: 20px;              
+    margin-top: 10px;
+    color: #914343;
+  }
+  /* Admission enquiry image div */
+  .admissionEnquiry div:nth-child(1){
+    width: 90px;
+    height: 96px;
+    float: left;
+  }
+  /* Admission enquiry content div */
+  .admissionEnquiry div:nth-child(2){
+    width: 260px;
+    height: 96px;
+    background-color:  #ffdd64;
+    float: left;
+  }
+  /* Content admissionEnquiry OnlineAdmission Career class */
+  .admissionEnquiryContent span:nth-child(1){
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    color:#914343;
+  }
+  .admissionEnquiryContent span:nth-of-type(2){
+    display: inline-block;
+    padding-left: 5px;
+    color:#914343;
+    font-weight: bold;
+  }
+  /* Hover effect */
+  .admissionEnquiry:hover{
+    background-color: coral;
+  }
+  /* Sliding content */
+  .sliderBottomService{
+    width: 1349px;
+    height: 80px;
+    background-color:#FBE8A6;
+  }
+  /* latest new */
+  #latestNews{
+    background-color:#57BA98;
+    height:80px;
+    width: 380px;
+    float: left;
+  }
+  #slidingData{
+    background-color: #57BA98;
+    height:80px;
+    width: 850px;
+    float: left;
+  }
+  #vacentSpace{
+    background-color:#57BA98;
+    height:80px;
+    width: 119px;
+    float: left;
+  }
+  #slidingData marquee{
+    direction:right;
+    padding-top: 15px;
+    color: #914343;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  #latestNews #btn1{
+    font-weight: bold;
+    padding: 5px 9px; 
+    display: inline-block;
+    background-color:#ffdd64;
+    transform: translate(-73px,9px);
+    margin-left: 200px;
+  }
+   #latestNews #btn2{ 
+    width: 155px;
+    height: 62px;
+    font-weight: bold;
+    display: inline-block ;
+    transform: translate(52px,-53px);
+    background-color:#ffdd64;
+    margin-left: 150px;
+    font-size: 25px;
+    color: #914343;
+  }
+ 
+  
